@@ -16,5 +16,5 @@ phases:
   post_build:
     commands:
       - echo "Updating lambda Function..."
-      - aws lambda update-function-code --function-name func_router_runbook --zip-file fileb://deployment_package.zip
+      - aws lambda update-function-code --function-name power_apps_data_transportation --zip-file fileb://deployment_package.zip
       - echo "DONE!!"
